@@ -1,0 +1,24 @@
+name: school_traffic_monitor
+description: "수강신청 RabbitMQ 트래픽 실시간 모니터 (changddao-back 연동)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1   # 상태관리
+  dio: ^5.7.0                # REST API
+  stomp_dart_client: ^2.0.0  # Spring STOMP WebSocket 구독
+  fl_chart: ^1.0.0           # 실시간 라인 차트
+  intl: any                  # 시간 포맷 (Flutter SDK와 버전 맞춰서 자동 선택)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
