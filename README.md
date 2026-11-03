@@ -71,6 +71,6 @@ lib/
 
 실제 폰에서 실행할 때는 PC IP를 넘겨 주세요: `flutter run --dart-define=API_HOST=192.168.0.10`
 
-
-![수강신청 트래픽 대쉬보드.png](..%2F..%2FPictures%2FScreenshots%2F%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD%20%ED%8A%B8%EB%9E%98%ED%94%BD%20%EB%8C%80%EC%89%AC%EB%B3%B4%EB%93%9C.png)
-![메시지큐 로그.png](..%2F..%2FPictures%2FScreenshots%2F%EB%A9%94%EC%8B%9C%EC%A7%80%ED%81%90%20%EB%A1%9C%EA%B7%B8.png)
+![수강신청 트래픽 대쉬보드](docs/images/traffic-dashboard.png)
+![메시지큐 로그](docs/images/mq-log.png)
+![부하발생 버튼](docs/images/buha-state.png)
